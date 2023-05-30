@@ -1,0 +1,13 @@
+body{
+  background-color: #005780;
+  font-family: calibri;
+  position: relative;
+}
+
+.wrapper{
+  max-width: 75rem;
+  margin: 0 auto;
+}
+textarea{
+  resize: none;
+}

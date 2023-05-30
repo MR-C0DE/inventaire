@@ -1,0 +1,79 @@
+.Edit{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    /* Centralisation */
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    width: 73%;
+    height: 30rem;
+    padding: 3rem;
+    box-shadow: 3px 3px 15px 3px black;
+}
+
+
+.Edit input, .Edit textarea{
+    background-color: rgb(235, 235, 235);
+    border: none;
+    width: 97%;
+    padding: .6rem 1rem;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: calibri;
+    font-size: 1em;
+}
+.Edit textarea{
+    height: 3rem;
+}
+.Edit .btn{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+.Edit button{
+    background-color:#fa8815;
+    border: none;
+    width: 10rem;
+    padding: .6rem 1rem;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: calibri;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Edit .cancel{
+    background-color: #777777;
+}
+.Edit .del{
+    background-color: rgb(219, 3, 3);
+}
+.Edit .save{
+    background-color:  #0098de;
+    margin-left: 5px;
+}
+
+.Edit .cancel:hover{
+    background-color: #a09c9c;
+}
+.Edit .del:hover{
+    background-color: rgb(255, 42, 42);
+}
+.Edit .save:hover{
+    background-color:  #3dbbf5;
+    margin-left: 5px;
+}
+
+.Edit .cancel:active{
+    background-color: #575454;
+}
+.Edit .del:active{
+    background-color: rgb(143, 4, 4);
+}
+.Edit .save:active{
+    background-color:  #066692;
+    margin-left: 5px;
+}
+
+

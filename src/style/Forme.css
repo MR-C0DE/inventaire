@@ -1,0 +1,43 @@
+.Forme{
+    background-color: #fff;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 5px 2px #013046;
+}
+
+
+.Forme input, .Forme textarea{
+    background-color: rgb(235, 235, 235);
+    border: none;
+    width: 97%;
+    padding: .6rem 1rem;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: calibri;
+    font-size: 1em;
+}
+.Forme textarea{
+height: 6rem;
+}
+.Forme .btn{
+    text-align: right;
+}
+.Forme button{
+    background-color:#fa8815;
+    border: none;
+    width: 25rem;
+    padding: .6rem 1rem;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: calibri;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Forme button:hover {
+    background-color:#fca147;
+}
+.Forme button:active {
+    background-color:#d36900;
+}

@@ -1,0 +1,51 @@
+:root {
+    --courbe: 2px;
+  }
+
+.Header{
+    background-color: white;
+    box-shadow: 1px 1px 5px 2px #013046;
+    padding: 1rem;  
+}
+
+.Header .content{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header .content h1{
+    padding: .3rem .6rem;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.Header .content h1 .span01{
+    background-color: #0098de;
+    padding: .3rem .6rem;
+    color: white;
+    border-top-left-radius: var(--courbe);
+    border-bottom-left-radius: var(--courbe);
+}
+.Header .content h1 .span02{
+    
+    background-color: #fa8815;
+    padding: .3rem .6rem;
+    color:#ffffff;
+    border-top-right-radius: var(--courbe);
+    border-bottom-right-radius: var(--courbe);
+}
+
+.Header .content ul{
+    display: flex;
+}
+.Header .content ul li{
+   margin-left: 2em;
+   color: rgb(7, 112, 169);
+}
+
+.Header .content ul li img{
+    width: 25px;
+ }

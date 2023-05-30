@@ -1,0 +1,76 @@
+.Stock{
+    margin-top: 1rem;
+    position: relative;
+}
+
+.Stock .recherche{
+    background-color: rgb(255, 255, 255);
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px #013046;
+}
+
+.Stock .recherche img{
+    width: 17px;
+    margin-right: 1rem;
+}
+
+.Stock .recherche input{
+    width: 100%;
+    padding: .5rem 1rem;
+    border: none;
+    
+}
+
+.Stock table{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    box-shadow: 1px 1px 5px 2px #013046;
+    border-radius: 2px;
+}
+.Stock table  thead{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1em;
+    background-color: #349bdb;
+    font-weight: bold;
+}
+.Stock table td{
+    text-align: center;
+    padding: .9rem 1rem;
+}
+.Stock table tbody td{
+    font-size: .9em;
+    color: #5e5e5e;
+}
+
+
+.Stock .mark{
+    color: #fa8815;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.Stock table img{
+    width: 15px;
+    height: 15px;
+}
+
+.Stock .impair{
+    background-color: #fff;
+}
+
+.Stock .pair{
+    background-color: rgb(240, 240, 240);
+}
+
+.Stock #achat{
+    background-color: rgb(245, 218, 167);
+}
+
+.Stock #achat .mark{
+    color: red;
+}

@@ -1,0 +1,33 @@
+.Navigation{
+    border-bottom: 1px solid rgb(172, 201, 201);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Navigation ul{
+    display: flex;
+}
+
+.Navigation ul li div{
+    text-transform: uppercase;
+    text-align: center;
+    padding: .7rem 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.Navigation ul li .selection{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #0098de;
+    color: #0098de;
+    font-weight: 600;
+}
+
+.Navigation .option{
+    color: #fa8815;
+    font-style: italic;
+}
